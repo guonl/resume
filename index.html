@@ -17,12 +17,13 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-<div id="fullpage"><!-- page 1 -->
+<div id="fullpage">
+    <!-- page 1 -->
     <div class="section info">
         <div class="avatar"></div>
         <div class="name-title">
             <div class="name">郭年蕾</div>
-            <div class="title">高级JAVA工程师</div>
+            <div class="title">中台架构师</div>
         </div>
         <ul class="contacts">
             <!-- github --> <a class="contact" target="_black" href="https://github.com/guonl"><span class="iconfont-resume icon-github"></span></a>
@@ -31,16 +32,67 @@
             <!-- tele --> <a class="contact" target="_black" href="tel:18221825926"><span class="iconfont-resume icon-tele"><span class="tele">18221825926</span> </span></a>
             <!-- email --> <a class="contact" href="mailto:guonianlei@126.com"><span class="iconfont-resume icon-email"><span class="email">guonianlei@126.com</span></span></a>
         </ul>
-        <span class="pdf"><a href="doc/guonl_resume.pdf" style="color:blue;font-size: 1.0rem;" target="_blank">My Resume For PDF,请点击查看</a></span></div>
+        <span class="pdf"><a href="doc/guonl_resume.pdf" style="color:blue;font-size: 1.0rem;" target="_blank">My Resume For PDF,请点击查看</a></span>
+    </div>
+    <!-- page 2 -->
+    <div class="section recommend">
+        <h1>自我评价</h1>
+        <ul class="comments">
+            <li class="comment">带领过多个团队，负责过多个项目的验收和交付，有PMP认证，有一定的管理和带领团队的能力;</li>
+            <li class="comment">负责过中台化平台的搭建，对微服务架构有比较深刻的理解和认识;</li>
+            <li class="comment">技术栈比较全面，后端+前端+运维都可以上手，可以独立完成整个项目周期的全过程;</li>
+            <li class="comment">对服务的容器化了解深刻，kubernetes也有成熟的落地经验，能独立完成项目容器化的拆分和迁移;</li>
+            <li class="comment">熟悉DevOps体系，多次优化集成方案，有自己的一套完整的容器化的CI/CD解决方案;</li>
+            <li class="comment">精通Java底层，能快速对业务进行分析，找到合理的实现方案，保证代码的健壮性和可扩展性;</li>
+            <li class="comment">热爱学习，对新技术有着一定追求，乐于挑战技术难点，有一定的抗压能力;</li>
+        </ul>
+        
+    </div>
     <!-- page 3 -->
-    <div class="section experiences"><h1>工作经历</h1>
+    <div class="section experiences">
+        <h1>工作经历</h1>
         <ul class="works">
             <li class="work">
                 <div class="target-border">
                     <div class="target-dot"></div>
                 </div>
-                <span class="company">红星美凯龙家居集团股份有限公司</span> <span class="title">高级JAVA工程师</span>
-                <time>2017.06 - 至今</time>
+                <span class="company">上海万向区块链股份公司</span> <span class="title">中台架构师</span>
+                <time>2020.03 - 至今</time>
+                <div class="tech-stack">
+                    JAVA,SpringBoot,Springcloud,grpc,Swagger,Mybatis,nacos,gateway,feign,Zookeeper,Redis,kafka,Mysql,ELK套件
+                </div>
+                <ul class="description">
+                    <li>主要负责业务分析与业务设计，推动中台化平台的建设，优化解决系统中存在的问题，保障系统的高效运行;</li>
+                    <li>主要负责区块链交易所的开发，完成了交易所的前台层和后管系统的开发，围绕用户体系完成了用户中心，KYC模块，审核体系，权限体系，风控中心等一系列配套模块的开发;</li>
+                    <li>围绕合规性和安全性，打造了一个安全合规的区块链交易所，成功取得了交易平台的牌照;</li>
+                    <li>协调各方资源，开发任务工作包的分解、排期与分配，保障迭代任务的如期交付;</li>
+                    <li>运营支撑团队的建设与知识分享，提升团队的技术能力和凝聚力;</li>
+                    <li>主要作品：HashKey Pro交易所平台、Prometheum券商平台;</li>
+                </ul>
+            </li>
+
+            <li class="work">
+                <div class="target-border">
+                    <div class="target-dot"></div>
+                </div>
+                <span class="company">上海虎博科技</span> <span class="title">高级JAVA工程师</span>
+                <time>2019.05 - 2020.02</time>
+                <div class="tech-stack">
+                    JAVA,SpringBoot,Springcloud,grpc,Swagger,Mybatis,Thymeleaf,Zookeeper,Redis,kafka,Mysql,ELK套件
+                </div>
+                <ul class="description">
+                    <li>优化系统的发布方案，构建一套自动化发布平台;</li>
+                    <li>搭建分布式任务调度平台，供各业务之间使用;</li>
+                    <li>搭建CRM系统，完善权限控制，做用户会员中心;</li>
+                    <li>公司OA系统的搭建和完善;</li>
+                </ul>
+            </li>
+            <li class="work">
+                <div class="target-border">
+                    <div class="target-dot"></div>
+                </div>
+                <span class="company">红星美凯龙家居集团股份有限公司</span> <span class="title">高级开发工程师</span>
+                <time>2017.06 - 2019.05</time>
                 <div class="tech-stack">
                     JAVA,SpringBoot,Dubbo,Swagger,Mybatis,Thymeleaf,Zookeeper,Disconf,Redis,Rabbitmq,Mysql,ELK套件
                 </div>
@@ -57,7 +109,7 @@
                 <div class="target-border">
                     <div class="target-dot"></div>
                 </div>
-                <span class="company">上海思眭信息技术有限公司</span> <span class="title">开发工程师、项目经理</span>
+                <span class="company">上海思眭信息技术有限公司</span> <span class="title">开发工程师</span>
                 <time>2014.07 - 2017.06</time>
                 <div class="tech-stack">Spring,SpringMVC,Dubbo,Docker,Mongodb,Zookeeper,Redis,Jenkins</div>
                 <ul class="description">
@@ -70,7 +122,8 @@
             </li>
         </ul>
     </div><!-- page 2 -->
-    <div class="section education"><h1>教育背景</h1>
+    <div class="section education">
+        <h1>教育背景</h1>
         <ul>
             <li>
                 <div class="school">PMP证书</div>
@@ -83,7 +136,8 @@
             </li>
         </ul>
     </div><!-- page 4 -->
-    <div class="section opensource"><h1>开源作品</h1>
+    <div class="section opensource">
+        <h1>开源作品</h1>
         <ul class="works">
             <li class="work">
                 <div class="target-border">
@@ -94,41 +148,72 @@
                 <div class="abstract">一个轻量级的分布式单点登录系统</div>
                 <div class="tech-stack">springboot redis</div>
                 <ul class="description">
-                    <li>一个分布式单点登录框架，只需要登录一次就可以访问所有相互信任的应用系统；</li>
-                    <li>拥有"轻量级、分布式、跨域、Cookie+Token均支持、Web+APP均支持"等特性；</li>
+                    <li>一个分布式单点登录框架，只需要登录一次就可以访问所有相互信任的应用系统;</li>
+                    <li>拥有"轻量级、分布式、跨域、Cookie+Token均支持、Web+APP均支持"等特性;</li>
                 </ul>
             </li>
             <li class="work">
                 <div class="target-border">
                     <div class="target-dot"></div>
                 </div>
-                <a target="_blank" href="https://github.com/guonl/spring-shiro" class="company">spring-shiro<span
+                <a target="_blank" href="https://github.com/guonl/api-manage" class="company">api-manage<span
                         class="iconfont-resume">&#xe600</span></a>
-                <div class="abstract">一个spring与shiro的整合项目</div>
-                <div class="tech-stack">shiro spring mysql</div>
+                <div class="abstract">一个API管理平台</div>
+                <div class="tech-stack">springboot actuator Webmvc</div>
                 <ul class="description">
-                    <li>spring与shiro的整合，一个shiro的入门项目，方便项目的搭建和使用；</li>
+                    <li>通过actuator的扩展，实现对URL的监控;</li>
+                    <li>可以获取到全部的url地址，以及接口的入参和出参;</li>
+                    <li>可以实现自动化测试，方便和前端联调;</li>
+                    <li>可以实现网关整合实现权限控制;</li>
                 </ul>
             </li>
             <li class="work">
                 <div class="target-border">
                     <div class="target-dot"></div>
                 </div>
-                <a target="_blank" href="https://github.com/guonl/springboot-union"
-                   class="company">springboot-union<span class="iconfont-resume">&#xe600</span></a>
-                <div class="abstract">一个springboot的集合项目</div>
-                <div class="tech-stack">springboot</div>
+                <a target="_blank" href="https://github.com/guonl/springboot-mongodb"
+                   class="company">xuangubao-mongodb<span class="iconfont-resume">&#xe600</span></a>
+                <div class="abstract">获取选股宝数据的demo项目</div>
+                <div class="tech-stack">springboot mongodb</div>
                 <ul class="description">
-                    <li>一个springboot的大集合，主要是平时学习springboot和练习的项目；</li>
+                    <li>一个springboot整合mongodb的项目</li>
+                    <li>抓去选股宝网站的数据，保存到mongodb中</li>
+                </ul>
+            </li>
+            <li class="work">
+                <div class="target-border">
+                    <div class="target-dot"></div>
+                </div>
+                <a target="_blank" href="https://github.com/guonl/springboot-graphql-demo"
+                   class="company">springboot-graphql<span class="iconfont-resume">&#xe600</span></a>
+                <div class="abstract">一个整合graphql的项目</div>
+                <div class="tech-stack">springboot graphql</div>
+                <ul class="description">
+                    <li>springboot整合graphql，通过playground实现接口调用</li>
+                    <li>通过该项目可以比较Restful和graphql接口的区别</li>
                 </ul>
             </li>
         </ul>
     </div><!-- page 5 -->
     <div class="section skills"><h1>专业技能</h1>
         <div class="skill-container">
-            <div><span>JAVA</span> <span>Springboot</span> <span>Docker</span> <span>Kubernetes</span>
-                <span>Mesos</span> <span>DockerSwarm</span> <span>Dubbo</span> <span>Zookeeper</span> <span>Redis</span>
-                <span>微服务</span></div>
+            <div>
+                <span>JAVA</span> 
+                <span>Springboot</span> 
+                <span>springcloud</span>
+                <span>Nacos</span>
+                <span>Gateway</span>
+                <span>Dubbo</span> 
+                <span>Kafka</span> 
+                <span>Zookeeper</span> 
+                <span>Redis</span>
+                <span>Docker</span> 
+                <span>DockerSwarm</span> 
+                <span>Kubernetes</span>
+                <span>Service Mesh</span>
+                <span>微服务</span>
+                <span>云原生</span>
+            </div>
         </div>
     </div>
 </div>
